@@ -90,7 +90,7 @@ The following HTTP status codes are used by the API. Additional codes might be a
 | Status                                    | Description                                                                                                                 |
 |-- -                                       | ---                                                                                                                       --|
 | 200&nbsp;OK                               | The request was successful.                                                                                                 |
-| 201&nbsp;Created                          | The `POST` request was successful and a new resource was created.                                                           |
+| 201&nbsp;                          | The `POST` request was successful and a new resource was created.                                                           |
 | 400&nbsp;Bad&nbsp;Request                 | The request does not conform to the API. The response body should provide more information.                                 |
 | 401&nbsp;Unauthorized                     | Authentication token is invalid for this service plan.                                                                      |
 | 403&nbsp;Forbidden                        | The request syntax is valid but cannot be performed. This could for example be because a referenced resource doesn't exist. |
